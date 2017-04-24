@@ -27,10 +27,10 @@ permalink: /
             }
    </style>
     <body>
-        <div class="content">
-            {% if site.front_img %}
+        <div class="content" style="background-image: url({{ site.front_img_path }});">
+            <!--{% if site.front_img %}
             <img src="{{ site.front_img_path }}" id="bg">
-            {% endif %}
+            {% endif %} -->
 
             {% if site.avatar %}
                 <img src="{{ site.avatar_img_path }}" id="avatar">
