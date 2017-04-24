@@ -19,10 +19,20 @@ permalink: /
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
+    <style>
+        #bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5000;
+            }
+   </style>
     <body>
         <div class="content">
             {% if site.front_img %}
-            <img src="{{ site.front_img_path }}" id="fullscreen">
+            <img src="{{ site.front_img_path }}" id="bg">
             {% endif %}
 
             {% if site.avatar %}
