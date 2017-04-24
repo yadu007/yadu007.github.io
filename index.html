@@ -34,11 +34,11 @@ permalink: /
 
                 <ul>
                     {% if site.blog_url %}
-                    <li><a data-toggle="tooltip" title="Blog" data-placement="top" class="fa fa-2x fa-tags" href="https://{{site.blog_url}}" target="_blank"><span class="description">Blog</span></a></li>
+                    <li><a class="fa fa-2x fa-tags" href="https://{{site.blog_url}}" data-toggle="tooltip" title="Blog" data-placement="top"  target="_blank"><span class="description">Blog</span></a></li>
                     {% endif %}
                     
                     {% if site.github_username %}
-                    <li><a data-toggle="tooltip" title="Github" data-placement="top" class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}" target="_blank"><span class="description">GitHub</span></a></li>
+                    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}" data-toggle="tooltip" title="Github" data-placement="top"  target="_blank"><span class="description">GitHub</span></a></li>
                     {% endif %}
 
                     {% if site.codepen_username %}
@@ -46,7 +46,7 @@ permalink: /
                     {% endif %}
 
                     {% if site.facebook_username %}
-                    <li><a data-toggle="tooltip" title="Facebook" data-placement="top" class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><span class="description">Facebook</span></a></li>
+                    <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"  data-toggle="tooltip" title="Facebook" data-placement="top" target="_blank"><span class="description">Facebook</span></a></li>
                     {% endif %}
 
                     {% if site.vk_username %}
@@ -62,7 +62,7 @@ permalink: /
                     {% endif %}
 
                     {% if site.linkedin_username %}
-                    <li><a data-toggle="tooltip" title="Linkedin" class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><span class="description">LinkedIn</span></a></li>
+                    <li><a  class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}" data-toggle="tooltip" title="Linkedin" target="_blank"><span class="description">LinkedIn</span></a></li>
                     {% endif %}
 
                     {% if site.vine_username %}
@@ -110,7 +110,7 @@ permalink: /
                     {% endif %}
 
                     {% if site.email %}
-                    <li><a data-toggle="tooltip" title="Email" data-placement="top" class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
+                    <li><a  class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}" data-toggle="tooltip" title="Email" data-placement="top"><span class="description">Email</span></a></li>
                     {% endif %}
 
                     {% if site.public_key_url %}
