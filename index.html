@@ -31,6 +31,9 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
+                    {% if site.blog_url %}
+                    <li><a class="fa fa-2x fa-tags" href="{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+                    {% endif %}
                     
                     {% if site.github_username %}
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}" target="_blank"><span class="description">GitHub</span></a></li>
@@ -102,10 +105,6 @@ permalink: /
 
                     {% if site.weibo_username %}
                     <li><a class="fa fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="description">微博</span></a></li>
-                    {% endif %}
-
-                    {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
                     {% endif %}
 
                     {% if site.email %}
