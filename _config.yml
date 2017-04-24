@@ -6,7 +6,7 @@ url: "teckz.blogspot.in"
 
 # Delete the lines you don't need
 # about 5 elements are recomended
-blog_s: teckz.blogspot.in
+#blog_s: teckz.blogspot.in
 github_username:  yadu007/
 #codepen_username: your_codepen_username_goes
 facebook_username: yadu.g.nambiar
@@ -25,7 +25,7 @@ linkedin_username: yadu-krishnan-g-84a20110b/
 #tumblr_username: your_tumblr_username_goes_here
 #weibo_username: your_weibo_username_goes_here
 #lastfm_username: your_lastfm_username_goes_here
-#blog_url: "/blog"
+blog_url: "teckz.blogspot.in"
 email: yadugkrishnan@gmail.com
 #public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
 
