@@ -120,6 +120,11 @@ permalink: /
                     <li><a  class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}" data-toggle="tooltip" title="Email" data-placement="top"><span class="description">Email</span></a></li>
                     {% endif %}
 
+                    {% if site.certificate %}
+                    <li><a  class="fa fa-2x fa-certificate" href="#" data-toggle="tooltip" title="Certificates" data-placement="top"><span class="description">Certificates</span></a></li>
+                    {% endif %}
+
+                    
                     {% if site.public_key_url %}
                     <li><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
                     {% endif %}
