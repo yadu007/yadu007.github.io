@@ -44,13 +44,15 @@ permalink: /
                     <li><a  class="fa fa-2x fa-file-text" href="https://{{ site.resume }}" data-toggle="tooltip" title="Resume" data-placement="top"><span class="description">Certificates</span></a></li>
                     {% endif %}
                     
+                    {% if site.github_username %}
+                    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}" data-toggle="tooltip" title="Github" data-placement="top"  target="_blank"><span class="description">GitHub</span></a></li>
+                    {% endif %}
+                    
                     {% if site.blog_url %}
                     <li><a class="fa fa-2x fa-tags" href="http://{{site.blog_url}}" data-toggle="tooltip" title="Blog" data-placement="top"  target="_blank"><span class="description">Blog</span></a></li>
                     {% endif %}
                     
-                    {% if site.github_username %}
-                    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}" data-toggle="tooltip" title="Github" data-placement="top"  target="_blank"><span class="description">GitHub</span></a></li>
-                    {% endif %}
+                    
 
                     {% if site.codepen_username %}
                     <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="description">CodePen</span></a></li>
