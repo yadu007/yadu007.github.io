@@ -40,6 +40,10 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
+                    {% if site.resume %}
+                    <li><a  class="fa fa-2x fa-file-text" href="https://{{ site.resume }}" data-toggle="tooltip" title="Resume" data-placement="top"><span class="description">Certificates</span></a></li>
+                    {% endif %}
+                    
                     {% if site.blog_url %}
                     <li><a class="fa fa-2x fa-tags" href="http://{{site.blog_url}}" data-toggle="tooltip" title="Blog" data-placement="top"  target="_blank"><span class="description">Blog</span></a></li>
                     {% endif %}
@@ -120,10 +124,7 @@ permalink: /
                     <li><a  class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}" data-toggle="tooltip" title="Email" data-placement="top"><span class="description">Email</span></a></li>
                     {% endif %}
 
-                    {% if site.resume %}
-                    <li><a  class="fa fa-2x fa-certificate" href="https://{{ site.resume }}" data-toggle="tooltip" title="Certificates" data-placement="top"><span class="description">Certificates</span></a></li>
-                    {% endif %}
-
+                    
                     
                     {% if site.public_key_url %}
                     <li><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
